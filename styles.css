@@ -1,0 +1,147 @@
+.container {
+    margin: 0 auto;
+    position: relative;
+    width: 800px;
+    height: 600px;
+}
+
+.logo {
+    margin-left: 250px;
+    position: absolute;
+    margin-top: 200px;
+}
+
+.search {
+    transform: scaleX(4);
+    position: absolute;
+    margin-top: 325px;
+    margin-left: 325px;
+}
+
+#send {
+    width: 150px;
+    height: 30px;
+    background-color: #F5F5F5;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 220px;
+    text-align: center;
+    padding-top: 10px;
+    color: #929292;
+}
+
+#lucky {
+    width: 150px;
+    height: 30px;
+    background-color: #F5F5F5;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 430px;
+    text-align: center;
+    padding-top: 10px;
+    color: #929292;
+}
+
+#lucky:hover, #send:hover {
+    color: black;
+    border: 1px solid #929292;
+}
+
+.header {
+    float: right;  
+}
+
+a {
+    color: black;
+    font-size: 14px;
+}
+
+li {
+    list-style-type: none;
+    display: block;
+    margin: 15px;
+    color: #6A6B6B;
+}
+
+.li1:hover, .li2:hover {
+    text-decoration: underline;
+    color: #6A6B6B;
+}
+
+.li1 {
+    float: left;
+}
+
+.li2 {
+    float: right;
+}
+
+#gmail:hover, #images:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+#gmail, #images, #squarecont {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#squarecont {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 3px;
+}
+
+.square {
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    width: 3px;
+    height: 3px;
+}
+
+#s1 {
+    left: 0;
+    top: 0;
+}
+
+#s2 {
+    left: 5px;
+    top: 0;
+}
+
+#s3 {
+    left: 10px;
+    top: 0;
+}
+
+#s4 {
+    left: 0;
+    top: 5px;
+}
+
+#s5 {
+    left: 5px;
+    top: 5px;
+}
+
+#s6 {
+    left: 10px;
+    top: 5px;
+}
+
+#s7 {
+    left: 0;
+    top: 10px;
+}
+
+#s8 {
+    left: 5px;
+    top: 10px;
+}
+
+#s9 {
+    left: 10px;
+    top: 10px;
+}
