@@ -2,7 +2,7 @@
     margin: 0 auto;
     position: relative;
     width: 800px;
-    height: 570px;
+    height: 600px;
 }
 
 .logo {
@@ -14,7 +14,7 @@
 .search {
     position: absolute;
     margin-top: 325px;
-    margin-left: 120px;
+    margin-left: 140px;
 }
 
 input[type=text] {
